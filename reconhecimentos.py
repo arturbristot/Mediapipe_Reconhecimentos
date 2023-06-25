@@ -10,7 +10,7 @@ desenho = mp.solutions.drawing_utils
 
 # Mão
 hand = mp.solutions.hands
-Hand = hand.Hands(max_num_hands=1)
+Hand = hand.Hands(max_num_hands=2)
 
 while True:
     verificador, img = webcam.read()
